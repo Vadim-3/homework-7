@@ -103,5 +103,10 @@ def sort_files(folder):
                                 f'{folder}\{value}\{filee}')
 
 
+def main():
+    sort_files(folder)
+
+
 # викликаємо функцію, яка виконає сортування
-sort_files(folder)
+if __name__ == '__main__':
+    main()
